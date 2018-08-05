@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_testing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zech.simplerpg.Testing">
+
+    <TextView
+        android:text="Testing Activity\n List tests here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="Battle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
+        android:id="@+id/battle_button"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/playerInfo" />
+
+    <Button
+        android:text="Player Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/battle_button"
+        android:layout_alignParentStart="true"
+        android:id="@+id/playerInfo" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerInfo"
+        android:layout_alignParentStart="true"
+        android:id="@+id/testingExit" />
+
+
+    //Temp Julian code START
+    ///////////////////////////////////////////////////////////////
+
+    <Button
+        android:text="Go_to_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:id="@+id/testButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/playerInfo"
+        android:layout_marginBottom="93dp" />
+
+    //Temp Julian code END
+    /////////////////////////////////////////////////////////////////
+</RelativeLayout>
